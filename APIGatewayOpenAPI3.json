@@ -1,0 +1,395 @@
+{
+    "openapi" : "3.0.1",
+    "info" : {
+      "title" : "quote",
+      "version" : "2025-03-15T18:29:50Z"
+    },
+    "servers" : [ {
+      "url" : "https://nd20w0kg24.execute-api.us-east-1.amazonaws.com/{basePath}",
+      "variables" : {
+        "basePath" : {
+          "default" : "test"
+        }
+      }
+    } ],
+    "paths" : {
+      "/quoteModule/getAll" : {
+        "get" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "put" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/quoteModule/getItem" : {
+        "get" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/marketplan/create" : {
+        "put" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "options" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Methods" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Headers" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/images/create" : {
+        "put" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "options" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Methods" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Headers" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/userdetails/get-quotas" : {
+        "post" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "options" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Methods" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Headers" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/places/search" : {
+        "post" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "options" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Methods" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Headers" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/images/describe" : {
+        "put" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "options" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Methods" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Headers" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/quoteModule/uploadlog" : {
+        "put" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "options" : {
+          "responses" : {
+            "200" : {
+              "description" : "200 response",
+              "headers" : {
+                "Access-Control-Allow-Origin" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Methods" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                },
+                "Access-Control-Allow-Headers" : {
+                  "schema" : {
+                    "type" : "string"
+                  }
+                }
+              },
+              "content" : {
+                "application/json" : {
+                  "schema" : {
+                    "$ref" : "#/components/schemas/Empty"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components" : {
+      "schemas" : {
+        "Empty" : {
+          "title" : "Empty Schema",
+          "type" : "object"
+        }
+      }
+    }
+  }
